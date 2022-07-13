@@ -1,8 +1,8 @@
-from checkers import game
-from node import Node
-import copy
 import numpy as np
-import tqdm
+from checkers import game
+from .node import Node, RaveNode
+import copy
+from tqdm import tqdm
 
 class MCTAlgorithm():
 
